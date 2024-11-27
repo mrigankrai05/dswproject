@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Booking System</title>
+  <link rel="stylesheet" href="semproject.css">
+  <style>
+    img{
+            width: 150px;
+            height: 150px;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .nav img {
+            height: 150px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .nav a:hover {
+            background-color: #007bff;
+            color: white;
+        }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <div>
+        <a href="../landingpage.php">Home</a>
+    </div>
+    <div>
+       <a href="../landingpage.php">
+        <img src="jiit.jpg" alt="Logo"><br><br>
+      </a>
+    </div>
+    <div>
+        <a href="bookingdetail.php">Check Booking</a>
+    </div>
+    </div>
+  <div class="container">
+    <header>
+      <h1>Travel Booking System</h1>
+      <p>Plan your journey with ease</p>
+    </header>
+    <main>
+      <form id="flight-form">
+        <label for="departure">Departure:</label>
+        <select id="departure" required>
+          <option value="">Select your departure city</option>
+          <option value="New York">New York</option>
+          <option value="London">London</option>
+          <option value="Tokyo">Tokyo</option>
+          <option value="Paris">Paris</option>
+        </select>
+
+        <label for="destination">Destination:</label>
+        <select id="destination" required>
+          <option value="">Select your destination city</option>
+          <option value="Dubai">Dubai</option>
+          <option value="Sydney">Sydney</option>
+          <option value="Berlin">Berlin</option>
+          <option value="Mumbai">Mumbai</option>
+        </select>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" required>
+
+        <label for="airline">Airline Preference:</label>
+        <input type="text" id="airline" placeholder="Enter airline (optional)">
+
+        <button type="button" id="search-btn">Search Flights</button>
+      </form>
+      <div id="results" class="results-container"></div>
+    </main>
+    <footer>
+      <p>© 2024 Travel Booking System. All rights reserved.</p>
+    </footer>
+  </div>
+  <script src="semproject.js"></script>
+</body>
+</html>

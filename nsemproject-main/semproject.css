@@ -1,0 +1,123 @@
+/* General Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    color: #004aad;
+  }
+  
+  header p {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  main {
+    margin-top: 20px;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  
+  form label {
+    grid-column: 1 / -1;
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  
+  form input, form select {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    grid-column: 1 / -1;
+    background-color: #004aad;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #002d73;
+  }
+  
+  .results-container {
+    margin-top: 30px;
+  }
+  
+  .flight-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flight-card p {
+    margin: 0;
+  }
+  
+  .flight-details {
+    flex: 1;
+    margin-left: 15px;
+  }
+  
+  .flight-details strong {
+    color: #004aad;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #777;
+  }
+  
+  .flight-card .book-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.flight-card .book-btn:hover {
+    background-color: #1e7e34;
+}
