@@ -38,8 +38,8 @@
     <img src="g.jpeg" alt="lgo" class="img" />
     <div class="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-blue-900/70 flex items-center">
       <div class="max-w-7xl mx-auto px-4 text-white">
-        <h1 class="text-5xl font-bold mb-4 ">Where Every Trip Starts with a Perfect Booking.</h1>
-        <p class="text-xl max-w-2xl">
+        <h1 class="text-5xl font-bold mb-4">Where Every Trip Starts with a Perfect Booking.</h1>
+        <p class="text-3xl max-w-2xl">
           Booking made
 easy, adventures made memorable!
         </p>
@@ -88,8 +88,7 @@ easy, adventures made memorable!
       </a>
   </div>
 <br><br>
-  <!-- CTA Section -->
-  <div class="bg-blue-600 py-16 h-[20vh] w-[100%]">
+  <div class="bg-blue-600 py-16 h-[20vh] w-[100vw]">
     <div class="max-w-7xl mx-auto px-4 text-center">
       <h2 class="text-3xl font-bold text-white mb-4">WANT ANY HELP ?</h2>
       <p class="text-blue-100 mb-8">Our team is available 24/7 to help you with any problems</p>
